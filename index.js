@@ -58,7 +58,7 @@ async function run() {
 
   try {
 
-    await client.connect();
+    // await client.connect();
 
     const myCourseCollection = client.db("online-skill").collection("myCourses");
     const userCollection = client.db("online-skill").collection("user");
